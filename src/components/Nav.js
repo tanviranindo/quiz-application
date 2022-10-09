@@ -14,6 +14,6 @@ export default function Nav() {
                 </li>
             </ul>
             <Account />
-        </nav>
+        </nav >
     )
 }
