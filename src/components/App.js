@@ -8,6 +8,7 @@ import Quiz from "./pages/Quiz";
 import Result from "./pages/Result";
 import Signup from "./pages/Signup";
 import PrivateOutlet from "./PrivateOutlet";
+import PublicRoute from "./PublicRoute.js";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<PublicRoute><Signup /></PublicRoute>} />
+            <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
             {/* <Route path="quiz" element={<PrivateRoute><Quiz /></PrivateRoute>}></Route> */}
             {/* <Route path="result" element={<PrivateRoute><Result /></PrivateRoute>}></Route> */}
             <Route path="/*" element={<PrivateOutlet />}>
