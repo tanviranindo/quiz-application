@@ -14,11 +14,12 @@ export default function Videos() {
                 <InfiniteScroll
                     dataLength={videos.length}
                     hasMore={hasMore}
-                    loader={"Loading... "}
-                    next={() => setPage(page + 8)}>
-                    {videos.map((video) =>
+                    loader="Loading..."
+                    next={() => setPage(page + 8)}
+                >
+                    {videos.map((video, index) =>
                         video.noq > 0 ? (
-                            <Link to="/quiz" key={video.youtubeID}>
+                            <Link to={`/quiz/${video.youtubeID}`} key={index}>
                                 <Video
                                     title={video.title}
                                     id={video.youtubeID}
@@ -26,14 +27,19 @@ export default function Videos() {
                                 />
                             </Link>
                         ) : (
-                            <Video title={video.title} id={video.youtubeID} noq={video.noq} />
+                            <Video
+                                title={video.title}
+                                id={video.youtubeID}
+                                noq={video.noq}
+                                key={index}
+                            />
                         )
                     )}
                 </InfiniteScroll>
             )}
-            {!loading && videos.length === 0 && <div> No data found! </div>}
-            {error && <div> There was an error! </div>}
-            {loading && <div> Loading... </div>}
+            {!loading && videos.length === 0 && <div>No data found!</div>}
+            {error && <div>There was an error!</div>}
+            {loading && <div>Loading...</div>}
         </div>
     );
 }
