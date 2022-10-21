@@ -1,10 +1,7 @@
 import {
     get,
-    getDatabase,
-    limitToFirst,
-    orderByKey,
-    query,
-    ref,
+    getDatabase, limitToFirst, orderByKey,
+    query, ref,
     startAt
 } from "firebase/database";
 import { useEffect, useState } from "react";
@@ -24,7 +21,7 @@ export default function useVideoList(page) {
                 videosRef,
                 orderByKey(),
                 startAt("" + page),
-                limitToFirst(8)
+                limitToFirst(1)
             );
 
             try {

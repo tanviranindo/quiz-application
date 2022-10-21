@@ -1,0 +1,454 @@
+{
+  "videos": {
+    "1": {
+      "youtubeID": "lb7wT1gVU7Y",
+      "title": "JavaScript Part-1 Bangla Tutorial | Introduction to JavaScript",
+      "noq": 5
+    },
+    "2": {
+      "youtubeID": "PHy8h0BixKA",
+      "title": "JavaScript Part-2 Bangla Tutorial | Introduction to JavaScript",
+      "noq": 5
+    }
+  },
+  "quiz": {
+    "lb7wT1gVU7Y": {
+      "questions": [
+        {
+          "title": "What does ECMAScript stand for?",
+          "options": [
+            {
+              "title": "European CPU Manufacturers Association Script"
+            },
+            {
+              "title": "ECMA International Scripting Language"
+            },
+            {
+              "title": "European Computer Manufacturers Association Script"
+            },
+            {
+              "title": "General Purpose Programming Language"
+            }
+          ]
+        },
+        {
+          "title": "Who created JavaScript?",
+          "options": [
+            {
+              "title": "James Gosling"
+            },
+            {
+              "title": "Mark Zuckerberg"
+            },
+            {
+              "title": "Dennis Ritchie"
+            },
+            {
+              "title": "Jordan Walke"
+            },
+            {
+              "title": "Brendan Eich"
+            }
+          ]
+        },
+        {
+          "title": "When JavaScript was invented?",
+          "options": [
+            {
+              "title": "September 1993"
+            },
+            {
+              "title": "September 1995"
+            },
+            {
+              "title": "November 1995"
+            },
+            {
+              "title": "October 1999"
+            },
+            {
+              "title": "September 1998"
+            }
+          ]
+        },
+        {
+          "title": "Is Java and JavaScript similar?",
+          "options": [
+            {
+              "title": "No"
+            },
+            {
+              "title": "Almost Same"
+            },
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "Maybe"
+            }
+          ]
+        },
+        {
+          "title": "What is the latest version of ECMAScript?",
+          "options": [
+            {
+              "title": "ES2022"
+            },
+            {
+              "title": "ES21"
+            },
+            {
+              "title": "ES2021"
+            },
+            {
+              "title": "ES6"
+            },
+            {
+              "title": "ES2020"
+            }
+          ]
+        }
+      ]
+    },
+    "PHy8h0BixKA": {
+      "questions": [
+        {
+          "title": "Why would you use console.log?",
+          "options": [
+            {
+              "title": "JavaScript does not have any console.log function"
+            },
+            {
+              "title": "To access an HTML element"
+            },
+            {
+              "title": "To debug JavaScript Code"
+            },
+            {
+              "title": "For testing purpose"
+            },
+            {
+              "title": "Print data to user"
+            }
+          ]
+        },
+        {
+          "title": "What is the main purpose of innerHTML?",
+          "options": [
+            {
+              "title": "Debugging the Code"
+            },
+            {
+              "title": "Testing the Code"
+            },
+            {
+              "title": "To set or modify the Markup Content"
+            },
+            {
+              "title": "Print the content of the current window"
+            },
+            {
+              "title": "Used to write Dynamic Content on HTML"
+            }
+          ]
+        },
+        {
+          "title": "If 'script.js' file is in the same folder index.html file is, what will be the correct src for <script> Tag ?",
+          "options": [
+            {
+              "title": ".\\script.js"
+            },
+            {
+              "title": "script.js"
+            },
+            {
+              "title": "./script.js"
+            },
+            {
+              "title": "../script.js"
+            },
+            {
+              "title": ".//script.js"
+            }
+          ]
+        },
+        {
+          "title": "What is Chrome Dev Tool?",
+          "options": [
+            {
+              "title": "Developer tool to learn JavaScript"
+            },
+            {
+              "title": "Tool for Hacking Google Chrome"
+            },
+            {
+              "title": "Shortcut tool for Developer"
+            },
+            {
+              "title": "Debugging tool for Developer"
+            },
+            {
+              "title": "Latest Chrome Browser"
+            },
+            {
+              "title": "Only tool to write JavaScript"
+            }
+          ]
+        },
+        {
+          "title": "How to print the contents of the current window with JavaScript?",
+          "options": [
+            {
+              "title": "document.print()"
+            },
+            {
+              "title": "window.write()"
+            },
+            {
+              "title": "console.print()"
+            },
+            {
+              "title": "windows.print()"
+            },
+            {
+              "title": "document.write()"
+            },
+            {
+              "title": "print()"
+            },
+            {
+              "title": "console.log()"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "answers": {
+    "lb7wT1gVU7Y": {
+      "questions": [
+        {
+          "title": "What does ECMAScript stand for?",
+          "options": [
+            {
+              "title": "European CPU Manufacturers Association Script"
+            },
+            {
+              "title": "ECMA International Scripting Language"
+            },
+            {
+              "title": "European Computer Manufacturers Association Script",
+              "correct": true
+            },
+            {
+              "title": "General Purpose Programming Language"
+            }
+          ]
+        },
+        {
+          "title": "Who created JavaScript?",
+          "options": [
+            {
+              "title": "James Gosling"
+            },
+            {
+              "title": "Mark Zuckerberg"
+            },
+            {
+              "title": "Dennis Ritchie"
+            },
+            {
+              "title": "Jordan Walke"
+            },
+            {
+              "title": "Brendan Eich",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "When JavaScript was invented?",
+          "options": [
+            {
+              "title": "September 1993"
+            },
+            {
+              "title": "September 1995",
+              "correct": true
+            },
+            {
+              "title": "November 1995"
+            },
+            {
+              "title": "October 1999"
+            },
+            {
+              "title": "September 1998"
+            }
+          ]
+        },
+        {
+          "title": "Is Java and JavaScript similar?",
+          "options": [
+            {
+              "title": "No",
+              "correct": true
+            },
+            {
+              "title": "Almost Same"
+            },
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "Maybe"
+            }
+          ]
+        },
+        {
+          "title": "What is the latest version of ECMAScript?",
+          "options": [
+            {
+              "title": "ES2022"
+            },
+            {
+              "title": "ES21"
+            },
+            {
+              "title": "ES2021",
+              "correct": true
+            },
+            {
+              "title": "ES6"
+            },
+            {
+              "title": "ES2020"
+            }
+          ]
+        }
+      ]
+    },
+    "PHy8h0BixKA": {
+      "questions": [
+        {
+          "title": "Why would you use console.log?",
+          "options": [
+            {
+              "title": "JavaScript does not have any console.log function"
+            },
+            {
+              "title": "To access an HTML element"
+            },
+            {
+              "title": "To debug JavaScript Code",
+              "correct": true
+            },
+            {
+              "title": "For testing purpose",
+              "correct": true
+            },
+            {
+              "title": "Print data to user"
+            }
+          ]
+        },
+        {
+          "title": "What is the main purpose of innerHTML?",
+          "options": [
+            {
+              "title": "Debugging the Code"
+            },
+            {
+              "title": "Testing the Code"
+            },
+            {
+              "title": "To set or modify the Markup Content",
+              "correct": true
+            },
+            {
+              "title": "Print the content of the current window"
+            },
+            {
+              "title": "Used to write Dynamic Content on HTML",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "If 'script.js' file is in the same folder index.html file is, what will be the correct src for <script> Tag ?",
+          "options": [
+            {
+              "title": ".\\script.js"
+            },
+            {
+              "title": "script.js",
+              "correct": true
+            },
+            {
+              "title": "./script.js",
+              "correct": true
+            },
+            {
+              "title": "../script.js"
+            },
+            {
+              "title": ".//script.js"
+            }
+          ]
+        },
+        {
+          "title": "What is Chrome Dev Tool?",
+          "options": [
+            {
+              "title": "Developer tool to learn JavaScript",
+              "correct": true
+            },
+            {
+              "title": "Tool for Hacking Google Chrome"
+            },
+            {
+              "title": "Shortcut tool for Developer"
+            },
+            {
+              "title": "Debugging tool for Developer",
+              "correct": true
+            },
+            {
+              "title": "Latest Chrome Browser"
+            },
+            {
+              "title": "Only tool to write JavaScript"
+            }
+          ]
+        },
+        {
+          "title": "How to print the contents of the current window with JavaScript?",
+          "options": [
+            {
+              "title": "document.print()"
+            },
+            {
+              "title": "window.write()"
+            },
+            {
+              "title": "console.print()"
+            },
+            {
+              "title": "windows.print()"
+            },
+            {
+              "title": "document.write()"
+            },
+            {
+              "title": "print()",
+              "correct": true
+            },
+            {
+              "title": "console.log()"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

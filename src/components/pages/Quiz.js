@@ -11,6 +11,7 @@ import ProgressBar from "../ProgressBar";
 const initialState = null;
 
 const reducer = (state, action) => {
+
     switch (action.type) {
         case "questions":
             action.value.forEach((question) => {
@@ -23,7 +24,6 @@ const reducer = (state, action) => {
             const questions = _.cloneDeep(state);
             questions[action.questionID].options[action.optionIndex].checked =
                 action.value;
-
             return questions;
         default:
             return state;
@@ -38,6 +38,8 @@ export default function Quiz() {
     const [qna, dispatch] = useReducer(reducer, initialState);
     const { currentUser } = useAuth();
     const navigate = useNavigate();
+
+    // console.log(questions)
 
     useEffect(() => {
         dispatch({
@@ -57,13 +59,16 @@ export default function Quiz() {
 
     function prevQuestion() {
         if (currentQuestion >= 1 && currentQuestion <= questions.length) {
-            setCurrentQuestion((prevCurrent) => prevCurrent - 1);
+            setCurrentQuestion((current) => current - 1);
         }
     }
 
+
     function nextQuestion() {
         if (currentQuestion + 1 < questions.length) {
-            setCurrentQuestion((prevCurrent) => prevCurrent + 1);
+            setCurrentQuestion((current) => current + 1);
+            // console.log(currentQuestion + " " + questions.length)
+
         }
     }
 
@@ -82,6 +87,8 @@ export default function Quiz() {
     const percentage =
         questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
 
+    // console.log(questions.length)
+
     return (
         <>
             {loading && <div>Loading ...</div>}
@@ -92,7 +99,7 @@ export default function Quiz() {
                     <h4>Question can have multiple answers</h4>
                     <Answers options={qna[currentQuestion].options} handleChange={handleAnswerChange} input />
                     <ProgressBar next={nextQuestion} prev={prevQuestion} submit={submit} progress={percentage} />
-                    <MiniPlayer />
+                    <MiniPlayer id={id} title={qna[currentQuestion].title} />
                 </>
             )}
         </>

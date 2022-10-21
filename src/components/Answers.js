@@ -19,8 +19,12 @@ export default function Answers({ options = [], handleChange, input }) {
                     ) : (
                         <Checkbox
                             key={index}
-                            className={`${classes.answer} ${option.correct ? classes.correct : option.checked
-                                ? classes.wrong : null} `}
+                            className={`${classes.answer} ${option.correct
+                                ? classes.correct
+                                : option.checked
+                                    ? classes.wrong
+                                    : null
+                                } `}
                             text={option.title}
                             defaultChecked={option.checked}
                             disabled
