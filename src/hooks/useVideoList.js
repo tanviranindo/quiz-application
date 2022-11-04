@@ -1,6 +1,6 @@
 import {
     get,
-    getDatabase, limitToFirst, orderByKey,
+    getDatabase, orderByKey,
     query, ref,
     startAt
 } from "firebase/database";
@@ -21,7 +21,7 @@ export default function useVideoList(page) {
                 videosRef,
                 orderByKey(),
                 startAt("" + page),
-                limitToFirst(1)
+                // limitToFirst(1)
             );
 
             try {
@@ -31,8 +31,8 @@ export default function useVideoList(page) {
                 const snapshot = await get(videoQuery);
                 setLoading(false);
                 if (snapshot.exists()) {
-                    setVideos((prevVideos) => {
-                        return [...prevVideos, ...Object.values(snapshot.val())];
+                    setVideos(() => {
+                        return [...Object.values(snapshot.val())];
                     });
                 } else {
                     setHasMore(false);
