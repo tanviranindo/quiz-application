@@ -7,8 +7,18 @@
     },
     "2": {
       "youtubeID": "PHy8h0BixKA",
-      "title": "JavaScript Part-2 Bangla Tutorial | Introduction to JavaScript",
+      "title": "JavaScript Part-2 Bangla Tutorial | JavaScript Output",
       "noq": 5
+    },
+    "3": {
+      "youtubeID": "vXHefJiJM24",
+      "title": "JavaScript Part-3 Bangla Tutorial | JavaScript Statement",
+      "noq": 6
+    },
+    "4": {
+      "youtubeID": "xWujZw0yIqg",
+      "title": "JavaScript Part-4 Bangla Tutorial | JavaScript Syntax",
+      "noq": 9
     }
   },
   "quiz": {
@@ -218,6 +228,308 @@
             },
             {
               "title": "console.log()"
+            }
+          ]
+        }
+      ]
+    },
+    "vXHefJiJM24": {
+      "questions": [
+        {
+          "title": "JavaScript statements are composed of ________ ",
+          "options": [
+            {
+              "title": "Operators, Expressions"
+            },
+            {
+              "title": "Values"
+            },
+            {
+              "title": "Expressions"
+            },
+            {
+              "title": "Keywords"
+            },
+            {
+              "title": "Comments & Syntax"
+            }
+          ]
+        },
+        {
+          "title": "JavaScript block is delimited by ________",
+          "options": [
+            {
+              "title": "{}"
+            },
+            {
+              "title": "[]"
+            },
+            {
+              "title": "First Brackets"
+            },
+            {
+              "title": "A pair of Curly Brackets"
+            },
+            {
+              "title": "%%"
+            },
+            {
+              "title": "Second Brackets"
+            }
+          ]
+        },
+        {
+          "title": "Which statement is true for JavaScript Statement?",
+          "options": [
+            {
+              "title": "JavaScript Statements are called JavaScript Code"
+            },
+            {
+              "title": "We can write multiple statements on one line"
+            },
+            {
+              "title": "Statements are the commands that tell the browser to what action to perform"
+            },
+            {
+              "title": "Statements are separated by colon"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "What is a white space?",
+          "options": [
+            {
+              "title": "Nothing"
+            },
+            {
+              "title": "Empty Space"
+            },
+            {
+              "title": "Game Characters"
+            },
+            {
+              "title": "Any Visual Representation"
+            }
+          ]
+        },
+        {
+          "title": "What is the purpose of Code Blocks?",
+          "options": [
+            {
+              "title": "Programmers often like to use Code Blocks"
+            },
+            {
+              "title": "To define statements to be executed together"
+            },
+            {
+              "title": "To group statements together"
+            },
+            {
+              "title": "Because It helps programmers to learn programming in one day"
+            }
+          ]
+        },
+        {
+          "title": "If a JavaScript statement does not fit on one line, what is the correct way to write it?",
+          "options": [
+            {
+              "title": "Sue against Learn with Sumit"
+            },
+            {
+              "title": "Break the line"
+            },
+            {
+              "title": "Stop coding"
+            },
+            {
+              "title": "Zoom out the browser window"
+            },
+            {
+              "title": "Break the computer"
+            }
+          ]
+        }
+      ]
+    },
+    "xWujZw0yIqg": {
+      "questions": [
+        {
+          "title": "What is the correct syntax for adding comments in JavaScript?",
+          "options": [
+            {
+              "title": "\\ this is Comment"
+            },
+            {
+              "title": "// this is Comment"
+            },
+            {
+              "title": "!!"
+            },
+            {
+              "title": "/* this is Comment */"
+            },
+            {
+              "title": "<!-- this is Comment -->"
+            }
+          ]
+        },
+        {
+          "title": "What are expressions in JavaScript?",
+          "options": [
+            {
+              "title": "Set of rules that define a correctly structured JavaScript program"
+            },
+            {
+              "title": "Expressions are programming instructions"
+            },
+            {
+              "title": "Unit of code that can be evaluated to a value"
+            },
+            {
+              "title": "Expressions are used to store data values"
+            }
+          ]
+        },
+        {
+          "title": "Why do we use variables in programming?",
+          "options": [
+            {
+              "title": "To display Data"
+            },
+            {
+              "title": "To Log Data"
+            },
+            {
+              "title": "To label and store data in memory"
+            },
+            {
+              "title": "To separate JavaScript statements"
+            }
+          ]
+        },
+        {
+          "title": "Why equal sign (=) is used in programming?",
+          "options": [
+            {
+              "title": "To set a value of a variable"
+            },
+            {
+              "title": "To assign values"
+            },
+            {
+              "title": "To check the equality"
+            },
+            {
+              "title": "To compare the equality"
+            }
+          ]
+        },
+        {
+          "title": "Which syntax is correct for camel case?",
+          "options": [
+            {
+              "title": "Learn with Sumit"
+            },
+            {
+              "title": "learnWithSumit"
+            },
+            {
+              "title": "lEarnWithSumit"
+            },
+            {
+              "title": "Learn_with_sumit"
+            }
+          ]
+        },
+        {
+          "title": "What is JavaScript Literals?",
+          "options": [
+            {
+              "title": "Variable values"
+            },
+            {
+              "title": "String"
+            },
+            {
+              "title": "Print values"
+            },
+            {
+              "title": "Operator values"
+            },
+            {
+              "title": "Number"
+            },
+            {
+              "title": "Fixed values"
+            }
+          ]
+        },
+        {
+          "title": "What are the JavaScript Variable Keywords?",
+          "options": [
+            {
+              "title": "var"
+            },
+            {
+              "title": "x"
+            },
+            {
+              "title": "numb"
+            },
+            {
+              "title": "string"
+            },
+            {
+              "title": "const"
+            },
+            {
+              "title": "let"
+            }
+          ]
+        },
+        {
+          "title": "Types of JavaScript Values are?",
+          "options": [
+            {
+              "title": "Fixed values"
+            },
+            {
+              "title": "Operator values"
+            },
+            {
+              "title": "Print values"
+            },
+            {
+              "title": "Literals"
+            },
+            {
+              "title": "Output values"
+            },
+            {
+              "title": "Variable values"
+            }
+          ]
+        },
+        {
+          "title": "Why JavaScript uses Arithmetic Operators?",
+          "options": [
+            {
+              "title": "To assign values"
+            },
+            {
+              "title": "To identify actions to be performed"
+            },
+            {
+              "title": "To compute values"
+            },
+            {
+              "title": "Cause JavaScript don't have operation theater"
+            },
+            {
+              "title": "To perform mathematical calculations"
             }
           ]
         }
@@ -445,6 +757,339 @@
             },
             {
               "title": "console.log()"
+            }
+          ]
+        }
+      ]
+    },
+    "vXHefJiJM24": {
+      "questions": [
+        {
+          "title": "JavaScript statements are composed of ________ ",
+          "options": [
+            {
+              "title": "Operators, Expressions",
+              "correct": true
+            },
+            {
+              "title": "Values",
+              "correct": true
+            },
+            {
+              "title": "Expressions",
+              "correct": true
+            },
+            {
+              "title": "Keywords",
+              "correct": true
+            },
+            {
+              "title": "Comments & Syntax"
+            }
+          ]
+        },
+        {
+          "title": "JavaScript block is delimited by ________",
+          "options": [
+            {
+              "title": "{}",
+              "correct": true
+            },
+            {
+              "title": "[]"
+            },
+            {
+              "title": "First Brackets"
+            },
+            {
+              "title": "A pair of Curly Brackets",
+              "correct": true
+            },
+            {
+              "title": "%%"
+            },
+            {
+              "title": "Second Brackets"
+            }
+          ]
+        },
+        {
+          "title": "Which statement is true for JavaScript Statement?",
+          "options": [
+            {
+              "title": "JavaScript Statements are called JavaScript Code",
+              "correct": true
+            },
+            {
+              "title": "We can write multiple statements on one line",
+              "correct": true
+            },
+            {
+              "title": "Statements are the commands that tell the browser to what action to perform",
+              "correct": true
+            },
+            {
+              "title": "Statements are separated by colon"
+            },
+            {
+              "title": "All of the above"
+            }
+          ]
+        },
+        {
+          "title": "What is a white space?",
+          "options": [
+            {
+              "title": "Nothing"
+            },
+            {
+              "title": "Empty Space",
+              "correct": true
+            },
+            {
+              "title": "Game Characters"
+            },
+            {
+              "title": "Any Visual Representation"
+            }
+          ]
+        },
+        {
+          "title": "What is the purpose of Code Blocks?",
+          "options": [
+            {
+              "title": "Programmers often like to use Code Blocks"
+            },
+            {
+              "title": "To define statements to be executed together",
+              "correct": true
+            },
+            {
+              "title": "To group statements together",
+              "correct": true
+            },
+            {
+              "title": "Because It helps programmers to learn programming in one day"
+            }
+          ]
+        },
+        {
+          "title": "If a JavaScript statement does not fit on one line, what is the correct way to write it?",
+          "options": [
+            {
+              "title": "Sue against Learn with Sumit"
+            },
+            {
+              "title": "Break the line",
+              "correct": true
+            },
+            {
+              "title": "Stop coding"
+            },
+            {
+              "title": "Zoom out the browser window"
+            },
+            {
+              "title": "Break the computer"
+            }
+          ]
+        }
+      ]
+    },
+    "xWujZw0yIqg": {
+      "questions": [
+        {
+          "title": "What is the correct syntax for adding comments in JavaScript?",
+          "options": [
+            {
+              "title": "\\ this is Comment"
+            },
+            {
+              "title": "// this is Comment",
+              "correct": true
+            },
+            {
+              "title": "!!"
+            },
+            {
+              "title": "/* this is Comment */",
+              "correct": true
+            },
+            {
+              "title": "<!-- this is Comment -->"
+            }
+          ]
+        },
+        {
+          "title": "What are expressions in JavaScript?",
+          "options": [
+            {
+              "title": "Set of rules that define a correctly structured JavaScript program"
+            },
+            {
+              "title": "Expressions are programming instructions"
+            },
+            {
+              "title": "Unit of code that can be evaluated to a value",
+              "correct": true
+            },
+            {
+              "title": "Expressions are used to store data values"
+            }
+          ]
+        },
+        {
+          "title": "Why do we use variables in programming?",
+          "options": [
+            {
+              "title": "To display Data"
+            },
+            {
+              "title": "To Log Data"
+            },
+            {
+              "title": "To label and store data in memory",
+              "correct": true
+            },
+            {
+              "title": "To separate JavaScript statements"
+            }
+          ]
+        },
+        {
+          "title": "Why equal sign (=) is used in programming?",
+          "options": [
+            {
+              "title": "To set a value of a variable",
+              "correct": true
+            },
+            {
+              "title": "To assign values",
+              "correct": true
+            },
+            {
+              "title": "To check the equality"
+            },
+            {
+              "title": "To compare the equality"
+            }
+          ]
+        },
+        {
+          "title": "Which syntax is correct for camel case?",
+          "options": [
+            {
+              "title": "Learn with Sumit"
+            },
+            {
+              "title": "learnWithSumit",
+              "correct": true
+            },
+            {
+              "title": "lEarnWithSumit"
+            },
+            {
+              "title": "Learn_with_sumit"
+            }
+          ]
+        },
+        {
+          "title": "What is JavaScript Literals?",
+          "options": [
+            {
+              "title": "Variable values"
+            },
+            {
+              "title": "String",
+              "correct": true
+            },
+            {
+              "title": "Print values"
+            },
+            {
+              "title": "Operator values"
+            },
+            {
+              "title": "Number",
+              "correct": true
+            },
+            {
+              "title": "Fixed values",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What are the JavaScript Variable Keywords?",
+          "options": [
+            {
+              "title": "var",
+              "correct": true
+            },
+            {
+              "title": "x"
+            },
+            {
+              "title": "numb"
+            },
+            {
+              "title": "string"
+            },
+            {
+              "title": "const",
+              "correct": true
+            },
+            {
+              "title": "let",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "Types of JavaScript Values are?",
+          "options": [
+            {
+              "title": "Fixed values",
+              "correct": true
+            },
+            {
+              "title": "Operator values"
+            },
+            {
+              "title": "Print values"
+            },
+            {
+              "title": "Literals",
+              "correct": true
+            },
+            {
+              "title": "Output values"
+            },
+            {
+              "title": "Variable values",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "Why JavaScript uses Arithmetic Operators?",
+          "options": [
+            {
+              "title": "To assign values"
+            },
+            {
+              "title": "To identify actions to be performed"
+            },
+            {
+              "title": "To compute values",
+              "correct": true
+            },
+            {
+              "title": "Cause JavaScript don't have operation theater"
+            },
+            {
+              "title": "To perform mathematical calculations",
+              "correct": true
             }
           ]
         }
