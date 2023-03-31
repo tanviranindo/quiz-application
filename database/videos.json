@@ -2,22 +2,22 @@
   "videos": {
     "1": {
       "youtubeID": "lb7wT1gVU7Y",
-      "title": "JavaScript Part-1 Bangla Tutorial | Introduction to JavaScript",
+      "title": "Introduction to JavaScript | Part 1 | JS Tutorial",
       "noq": 5
     },
     "2": {
       "youtubeID": "PHy8h0BixKA",
-      "title": "JavaScript Part-2 Bangla Tutorial | JavaScript Output",
+      "title": "JavaScript Output | Part 2 | JS Tutorial",
       "noq": 5
     },
     "3": {
       "youtubeID": "vXHefJiJM24",
-      "title": "JavaScript Part-3 Bangla Tutorial | JavaScript Statement",
+      "title": "JavaScript Statement | Part 3 | JS Tutorial",
       "noq": 6
     },
     "4": {
       "youtubeID": "xWujZw0yIqg",
-      "title": "JavaScript Part-4 Bangla Tutorial | JavaScript Syntax",
+      "title": "JavaScript Syntax | Part 4 | JS Tutorial",
       "noq": 9
     }
   },
